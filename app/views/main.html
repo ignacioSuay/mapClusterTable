@@ -1,0 +1,16 @@
+<div class="map-container">
+<ui-gmap-google-map center='map.center' zoom='map.zoom'dragging="map.dragging"
+                    draggable="true">
+  <!--<ui-gmap-markers models="markers" coords="'self'" doCluster="true" icon="'icon'" clusterOptions="clusterOptions">-->
+  <ui-gmap-markers models="markers" coords="'self'" doCluster="true" icon="'icon'" clusterOptions="clusterOptions">
+  </ui-gmap-markers>
+
+</ui-gmap-google-map>
+</div>
+  <div class="dataControlBut">
+  <button ng-click="load()" class="btn btn-lg btn-success btnCenter">Load Data <span class="glyphicon glyphicon-ok"></span></button>
+  <button ng-click="clear()" class="btn btn-lg btn-success">Clear Data <span class="glyphicon glyphicon-trash"></span></button>
+  <button ng-click="loadSampleData()" class="btn btn-lg btn-success">Add Sample Data <span class="glyphicon glyphicon-th-list"></span></button>
+</div>
+  <div id="example1" class="handsontable"></div>
+
